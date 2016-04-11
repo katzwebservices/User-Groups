@@ -2,7 +2,7 @@
 /*
 Plugin Name: User Groups
 Description: Add user groups to WordPress
-Version: 1.2
+Version: 1.3
 Author: Katz Web Services, Inc.
 Author URI: https://katz.co
 Text Domain: user-groups
