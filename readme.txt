@@ -3,7 +3,7 @@ Contributors: katzwebdesign, katzwebservices
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=zackkatz%40gmail%2ecom&item_name=User%20Groups&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: users, groups, user group, user
 Requires at least: 2.8
-Tested up to: 4.2.2
+Tested up to: 4.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -44,6 +44,12 @@ Nope.
 4. How the user groups look in the User Profile screen
 
 == Changelog ==
+
+= 1.3 on April 11, 2016 =
+
+* Fixed: Compatibility with WordPress 4.2 - 4.4
+* Added: Translation strings
+* Fixed: Additional sanitization
 
 = 1.2.2 on June 11, 2015 =
 * Fixed: PHP notices
