@@ -45,8 +45,9 @@ Nope.
 
 == Changelog ==
 
-= 1.3 on April 11, 2016 =
+= 1.3 & 1.3.1 on April 11, 2016 =
 
+* Fixed: User Groups lost when users update own profile
 * Fixed: Compatibility with WordPress 4.2 - 4.5
 * Added: Translation strings
 * Fixed: Additional sanitization
