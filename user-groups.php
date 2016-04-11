@@ -788,11 +788,13 @@ class KWS_User_Groups {
 			$pagenow === 'edit-tags.php' &&
 			isset($_GET['action']) && $_GET['action'] == 'edit' &&
 			isset($_GET['taxonomy']) && $_GET['taxonomy'] === 'user-group'
-		){ return true; }
+		){
+			return true;
+		}
 
 		if(
 			(!$page || $page === 'all') &&
-			$pagenow === 'edit-tags.php' &&
+			( $pagenow === 'edit-tags.php' || $pagenow === 'term.php' ) &&
 			isset($_GET['taxonomy']) && $_GET['taxonomy'] === 'user-group' &&
 			(!isset($_GET['action']) || $_GET['action'] !== 'edit')
 		) {

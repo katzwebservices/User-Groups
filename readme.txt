@@ -50,6 +50,7 @@ Nope.
 * Fixed: Compatibility with WordPress 4.2 - 4.4
 * Added: Translation strings
 * Fixed: Additional sanitization
+* Fixed: Colorpicker in Edit User Group screen
 
 = 1.2.2 on June 11, 2015 =
 * Fixed: PHP notices
