@@ -2,7 +2,7 @@
 /*
 Plugin Name: User Groups
 Description: Add user groups to WordPress
-Version: 1.3
+Version: 1.3.1
 Author: Katz Web Services, Inc.
 Author URI: https://katz.co
 Text Domain: user-groups
@@ -272,7 +272,7 @@ class KWS_User_Groups {
 		$tax = get_taxonomy( 'user-group' );
 
 		/* Make sure the current user can edit the user and assign terms before proceeding. */
-		if ( !current_user_can( 'edit_user', $user_id ) && current_user_can( $tax->cap->assign_terms ) ) {
+		if ( ! ( current_user_can( 'edit_user', $user_id ) && current_user_can( $tax->cap->assign_terms ) ) ) {
 			return false;
 		}
 
